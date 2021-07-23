@@ -19,7 +19,7 @@
 - [x] [应用层](notes/application.md)
 - [x] [传输层](notes/transport.md)
 - [ ] [网络层](notes/network.md)
-- [ ] [数据链路层](notes/data_link.md)
+- [x] [数据链路层](notes/data_link.md)
 - [ ] [物理层](notes/physical.md)
 
 + [协议层次](notes/model.md)
