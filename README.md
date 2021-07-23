@@ -1,7 +1,5 @@
 # note-network
 
-
-
 [comment]: <> (+ [协议层次]&#40;notes/model.md&#41;)
 
 [comment]: <> (+ [应用层]&#40;notes/application.md&#41;)
@@ -14,11 +12,10 @@
 
 [comment]: <> (+ [物理层]&#40;notes/physical.md&#41;)
 
-
 - [x] [协议层次](notes/model.md)
 - [x] [应用层](notes/application.md)
 - [x] [传输层](notes/transport.md)
-- [ ] [网络层](notes/network.md)
+- [x] [网络层](notes/network.md)
 - [x] [数据链路层](notes/data_link.md)
 - [ ] [物理层](notes/physical.md)
 
@@ -85,7 +82,30 @@
         + [SYN FLOOD 是什么](notes/transport.md#syn-flood-是什么)
         + [为什么服务端易受到 SYN 攻击](notes/transport.md#为什么服务端易受到-syn-攻击)
         + [高并发服务器客户端主动关闭连接和服务端主动关闭连接的区别](notes/transport.md#高并发服务器客户端主动关闭连接和服务端主动关闭连接的区别)
-    
-
-
++ [网络层](notes/network.md)
+    + [基本概念](notes/network.md#基本概念)
+        + [IP 协议](notes/network.md#ip-协议)
+        + [路由器的分组转发流程](notes/network.md#路由器的分组转发流程)
+        + [ICMP 协议](notes/network.md#icmp-协议)
+        + [ICMP 的应用](notes/network.md#icmp-的应用)
+        + [ARP 地址解析协议](notes/network.md#arp-地址解析协议)
+        + [网络地址转换 NAT](notes/network.md#网络地址转换-nat)
+        + [TTL](notes/network.md#ttl)
+    + [FQA](notes/network.md#fqa)
+        + [域名和 IP 的关系，一个 IP 可以对应多个域名吗](notes/network.md#域名和-ip-的关系一个-ip-可以对应多个域名吗)
+        + [IPV4 地址不够如何解决](notes/network.md#ipv4-地址不够如何解决)
+        + [路由器和交换机的区别](notes/network.md#路由器和交换机的区别)
+        + [两台电脑连起来后 ping 不通，你觉得可能存在哪些问题？](notes/network.md#两台电脑连起来后-ping-不通你觉得可能存在哪些问题)
+        + [运输层协议和网络层协议的区别](notes/network.md#运输层协议和网络层协议的区别)
++ [数据链路层](notes/data_link.md)
+    + [基本概念](notes/data_link.md#基本概念)
+        + [MAC 地址和 IP 地址分别有什么作用](notes/data_link.md#mac-地址和-ip-地址分别有什么作用)
+        + [以太网中的 CSMA/CD 协议](notes/data_link.md#以太网中的-csmacd-协议)
+        + [PPP 协议](notes/data_link.md#ppp-协议)
+    + [FQA](notes/data_link.md#fqa)
+        + [为什么有了 MAC 地址还需要 IP 地址](notes/data_link.md#为什么有了-mac-地址还需要-ip-地址)
+        + [为什么有了 IP 地址还需要 MAC 地址](notes/data_link.md#为什么有了-ip-地址还需要-mac-地址)
+        + [私网地址和公网地址之间进行转换：同一个局域网内的两个私网地址，经过转换之后外面看到的一样吗](notes/data_link.md#私网地址和公网地址之间进行转换同一个局域网内的两个私网地址经过转换之后外面看到的一样吗)
+        + [数据链路层上的三个基本问题](notes/data_link.md#数据链路层上的三个基本问题)
+        + [为什么 PPP 协议不使用序号和确认机制](notes/data_link.md#为什么-ppp-协议不使用序号和确认机制)
 
